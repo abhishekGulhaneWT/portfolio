@@ -32,30 +32,51 @@
 
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="d-flex flex-column">
+    <div class="d-flex flex-column text-center">
 
       <div class="profile">
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Josh Mathews</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
+        <h1 class="text-light ft-2 "><a href="index.html">Josh Mathews</a></h1>
       </div>
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+       <!-- .nav-menu -->
+      <nav class="navbar navbar-expand-lg navbar-light navbar-fixed bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"> 
+                <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+              </li>  
+              <li class="nav-item">
+                <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+              </li>  
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
+              </li>  
+              <li class="nav-item">
+                <a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
+              </li>  
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+              </li>  
+            </ul> 
+            <div class="d-flex social-links mt-3 text-center">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div> 
+          </div>
+        </div>
+      </nav>
     </div>
   </header><!-- End Header -->
 
@@ -71,7 +92,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container mb-5 pb-2 pb-lg-4">
+      <div class="container-fluid mb-5 pb-2 pb-lg-4">
 
         <div class="section-title">
           <h2 class="h2 pb-3" align="center">About</h2>
@@ -80,7 +101,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="card-img-top img-fluid" alt="">
+            <img src="assets/img/profile-img.jpg" class="img-thumbnail" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3 class="h3 pb-3">UI/UX Designer &amp; Web Developer.</h3>
@@ -173,53 +194,32 @@
 
         <div class="row skills-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
-
+          <div class="col col-6" data-aos="fade-up">
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+              <div class="progress-bar" role="progressbar progress-bar w-100" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> <span class="skill">HTML <i class="val">100%</i></span></div>
             </div>
-
+  
+  
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+              <div class="progress-bar" role="progressbar progress-bar w-90" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">  <span class="skill">CSS <i class="val">90%</i></span></div>
             </div>
-
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+              <div class="progress-bar" role="progressbar progress-bar w-75" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">  <span class="skill">JavaScript <i class="val">75%</i></span></div>
             </div>
+         </div>
 
+          <div class="col col-6" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="progress">
+            <div class="progress-bar" role="progressbar progress-bar w-100" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">  <span class="skill">PHP <i class="val">80%</i></span></div>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+ 
+          <div class="progress">
+            <div class="progress-bar" role="progressbar progress-bar w-100" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> <span class="skill">WordPress/CMS <i class="val">90%</i></span></div>
+          </div> 
+          <div class="progress">
+            <div class="progress-bar" role="progressbar progress-bar w-100" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"> <span class="skill">Photoshop <i class="val">55%</i></span></div>
+          </div>  
 
           </div>
 
